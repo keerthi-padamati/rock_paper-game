@@ -18,3 +18,16 @@ function getWinner(player, computer)
         return "You win!";
     return "Computer wins!";
 }
+
+
+function playGame(playerChoice)
+{
+    const computerChoice = getComputerChoice();
+    const result = getWinner(playerChoice, computerChoice);
+    alert(`You chose ${playerChoice}.\nComputer chose ${computerChoice}.\n${result}`);
+}
+
+rockBtn.addEventListener('click', () => playGame('rock'));
+paperBtn.addEventListener('click', () => playGame('paper'));
+scissorsBtn.addEventListener('click', () => playGame('scissors'));
+
