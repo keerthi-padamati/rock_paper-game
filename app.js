@@ -6,6 +6,7 @@ const choices = ['rock', 'paper', 'scissors'];
 function getComputerChoice()
     return choices[Math.floor(Math.random() * choices.length)];
 
+
 function getWinner(player, computer)
 {
     if(player === computer) 
