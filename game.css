@@ -22,7 +22,8 @@ body
     transition: transform 0.2s;
 }
 
-.circle:hover {
+.circle:hover
+{
     transform: scale(1.05);
 }
 
@@ -33,14 +34,17 @@ body
     color: white;
 }
 
-#Rock {
+#Rock
+{
     background-color: rgb(46, 174, 174);
 }
 
-#Paper {
+#Paper
+{
     background-color: rgb(209, 25, 25);
 }
 
-#Scissors {
+#Scissors
+{
     background-color: rgb(2, 164, 129);
 }
